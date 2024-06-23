@@ -45,6 +45,7 @@ main {
 .card.toggle{
     display: flex;
 }
+
 .card {
     display: none;
     justify-content: center;
@@ -58,7 +59,7 @@ main {
     background-color: #9c9c9c;
     border-radius: 2rem;
 }
-#card {
+#form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
