@@ -7,6 +7,28 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-
+    <header>
+        <div class="container">
+        <h1>Library</h1>
+        <button>Log in</button>
+        </div>
+    </header>
+    <main>
+        <button>+ Add book</button>
+        <div id="book-grid"></div>
+    </main>
+    <div class="card">
+        <form id="card">
+            <h3>Add new book</h3>
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="author" placeholder="Author">
+            <input type="number" id="pages" placeholder="Pages">
+            <div class="isRead">
+                <p>Have you read it?</p>
+                <input type="checkbox" id="isRead">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>
